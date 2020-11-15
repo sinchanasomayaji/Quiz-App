@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    display: grid;
+    height: 100%;
+    place-items: center;
+}
+.final-score {
+    font-family: monospace;
+    font-size: 50px;
+    color: whitesmoke;
+    position: relative;
+    bottom: 10%;
+    right: 10%;
+
+}
+.score{
+    position: absolute;
+    bottom: 15%;
+    right: -15%;
+    font-size: 50px;
+}
+.playAgain {
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    border-radius: 20px;
+    padding: 10px 60px;
+    font-family: monospace;
+    font-size: 20px;
+}
+.exit {
+    position: absolute;
+    top: 55%;
+    left: 55%;
+    border-radius: 20px;
+    padding: 10px 60px;
+    font-family: monospace;
+    font-size: 20px;
+}

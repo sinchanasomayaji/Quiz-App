@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    display: grid;
+    height: 100%;
+    place-items: center;
+}
+.welcome{
+    position: relative;
+    top: -15%;
+    color: whitesmoke;
+}
+.question-number{
+    position: relative;
+    top: 10%;
+    right: 35%;
+    color: wheat;
+    display: inline-block;
+}
+.score{
+    position: relative;
+    bottom: 50px;
+    left: 280px;
+    color: wheat;
+}
+.wrapper{
+    width: 650px;
+    background: #ffff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+    position: relative;
+    bottom: 60px;
+}
+
+.wrapper .question{
+    color: #fff;
+    line-height: 65px;
+    text-align: center;
+    background: #4328db;
+    font-size: 20px;
+    border-radius: 10px 10px 0 0;
+}
+.wrapper .options{
+    padding: 20px 30px;
+    background: #fff;
+    border-radius: 10px;
+}
+.wrapper .options button{
+    position: relative;
+    left: 20%;
+    display: flex;
+    font-size: 20px;
+    height: 53px;
+    width: 60%;
+    align-items: center;
+    border: 1px solid rgb(8, 8, 8);
+    border-radius: 50px;
+    margin: 10px 0;
+    padding-left: 20px;
+    color: black;
+}
+.wrapper .options .correct {
+    background: green;
+}
+.wrapper .options .incorrect{
+    background: red;
+}
+.wrapper .options .showcorrect{
+    background: rgb(138, 243, 203);
+}

@@ -1,0 +1,22 @@
+html{
+    height: 100%;
+}
+body {
+    height: 90%;
+    background: url('..\\images\\home.jpg');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 1050px 640px;
+    background-color: black;
+}
+div{
+    position: absolute;
+    top: 35%;
+    left: 53%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+.start{
+    position: relative;
+    left: 30%;
+}

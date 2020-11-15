@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Quiz Game</title>
+        <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="../Assets/css/topic.css">
+        <script src="../Assets/js/quiz.js"></script>
+    </head>
+    <body>
+        <div class="flex-column flex-center">
+            <h1>Select Your Favorite Topic</h1>
+            <button class="movies btn btn-outline-primary" onclick="setTopic('movie'); window.location.href='./quiz.html'">Movie Quiz</button>
+            <button class="music btn btn-outline-info" onclick="setTopic('music'); window.location.href='./quiz.html'">Music Quiz</button>
+            <button class="science btn btn-outline-warning" onclick="setTopic('science'); window.location.href='./quiz.html'">Science Quiz</button>
+            <button class="sports btn btn-outline-danger" onclick="setTopic('sports'); window.location.href='./quiz.html'">Sports Quiz</button>
+        </div>
+    </body>
+</html>

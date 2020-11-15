@@ -1,0 +1,53 @@
+html{
+    height: 100%;
+}
+body{
+    height: 90% !important;
+    background-image: url('..\\images\\topic.jpg') !important;
+    background-position: left !important;
+    background-repeat: no-repeat !important;
+    background-size: 1280px 640px !important;
+}
+div h1{
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    font-family: monospace;
+    color: rgb(134, 141, 243);
+}
+.movies{
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    font-family: monospace; 
+    font-size: x-large;
+    border-radius: 2rem;
+    padding: 10px 60px;
+}
+.music{
+    position: absolute;
+    top: 40%;
+    left: 43%;
+    font-family: monospace; 
+    font-size: x-large;
+    border-radius: 2rem;
+    padding: 10px 60px;
+}
+.science{
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    font-family: monospace; 
+    font-size: x-large;
+    border-radius: 2rem;
+    padding: 10px 50px;
+}
+.sports{
+    position: absolute;
+    top: 60%;
+    left: 43%;
+    font-family: monospace; 
+    font-size: x-large;
+    border-radius: 2rem;
+    padding: 10px 55px;
+}
